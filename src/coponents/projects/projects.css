@@ -1,0 +1,136 @@
+.section-container {
+    /* margin-bottom: 6rem; */
+    /* border-top: 2px solid #BAB2E7; */
+    padding: 2rem 15% 0 12.08%;
+    background-color: white;
+
+
+
+}
+
+.projects-header-h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 3rem ;
+    text-align: center;
+    border-top: 2px solid #BAB2E7;
+    padding-top: 2.5%;
+    /* margin-top: 2rem; */
+
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    justify-content: center;
+
+}
+
+.project {
+    max-width: 300px;
+    flex-basis: 100%;
+
+}
+
+.project-img {
+    height: 180px;
+    width: 300px;
+
+}
+
+.project-header-h3 {
+    color: #4338CA;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.875;
+    width: 18.75rem;
+    height: 1.75rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.project-info-p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #6B7280;
+}
+
+
+.project-button {
+    display: flex;
+    gap: 6px;
+    color: var(--text-primary);
+    border-color: var(--border-primary);
+
+}
+
+.project-routing {
+    display: flex;
+    justify-content: space-between;
+    color: #3730A3;
+    font-weight: 400;
+    text-decoration: underline;
+
+}
+
+.project-button-info {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: #3730A3;
+    color: #3730A3;
+    background-color: #FFFFFF;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    font-weight: 500;
+
+
+}
+
+
+@media (min-width: 768px) {
+    .projects-header-h1 {
+        /* margin-top: 40px; */
+        margin-bottom: 40px;
+        font-size: 48px;
+        text-align: left;
+    }
+
+    .projects-container {
+        justify-content: space-between;
+
+    }
+}
+
+.thema-projects{
+    background-color: #252128;;
+}
+
+.thema-projects-header-h1{
+    color: #AEBCCF;
+}
+
+.thema-project-header-h3{
+    color: #CFCBFF;
+}
+
+.thema-project-info-p{
+    color: #FFFFFF;
+}
+
+.thema-project-button-info{
+    background-color: #383838;
+    color: #8F88FF;
+}
+
+.thema-project-routing{
+    color: #E1E1FF;
+}

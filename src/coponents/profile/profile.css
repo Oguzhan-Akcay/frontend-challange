@@ -1,0 +1,156 @@
+.header-profile {
+    padding: 2rem 15% 0 12.08%;
+    background-color: white;
+}
+
+.profile-h1 {
+    font-family: 'Inter', sans-serif;
+    border-top: 2px solid #BAB2E7;
+    padding-top: 2rem;
+    font-weight: 500;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.profile-container {
+    display: flex;
+    color: #007bff;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.profile-section {
+    flex-basis: 100%;
+}
+
+.profile-title {
+    color: #4338ca;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.875rem;
+    width: 8.56875rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.profile-section-titles {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    width: 9.73rem;
+    color: black;
+    flex-basis: 50%;
+}
+
+.profile-section-info {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-weight: normal;
+    width: 14.49rem;
+    flex-basis: 50%;
+}
+
+
+
+.profile-divider {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-section {
+    flex-basis: 100%;
+}
+
+.about-section-header {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.875rem;
+    color: #4338ca;
+    width: 36.05625rem;
+    height: 1.52625rem;
+    font-weight: 500;
+}
+
+.about-section-info {
+    font-family: 'Inter', sans-serif;
+    color: #6b7280;
+    font-size: 1.125rem;
+}
+
+@media (min-width: 768px) {
+    .profile-h1 {
+        text-align: left;
+    }
+
+    .profile-container {
+        justify-content: flex-start;
+    }
+
+    .profile-section {
+        flex-basis: 50%;
+    }
+
+    .profile-title {
+        justify-content: flex-start;
+    }
+
+    .profile-section-titles {
+        place-content: start;
+    }
+
+    .profile-section-info {
+        place-content: start;
+        flex-basis: 50%;
+    }
+
+    .about-section {
+        flex-basis: 50%;
+    }
+
+    .about-section-header {
+        justify-content: flex-start;
+    }
+}
+
+.thema-profile {
+    background-color: #252128;
+}
+
+.thema-profile-h1 {
+    color: #AEBCCF;
+}
+
+.thema-profile-container {
+    color: #B7AAFF;
+}
+
+.thema-profile-section-titles {
+    color: white;
+
+}
+
+.thema-profile-title{
+    color: #B7AAFF;
+}
+.thema-profile-section-info {
+    color: white;
+}
+
+.thema-about-section-header {
+    color: #B7AAFF;
+}
+
+.thema-about-section-info {
+    color: white;
+}
+
+@media (max-width: 1050px) {
+    .profile-container {
+        flex-direction: column;
+    }
+
+    .profile-section,
+    .about-section {
+        flex-basis: 100%;
+    }
+}

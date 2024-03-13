@@ -1,0 +1,104 @@
+.mode-container {
+    padding: 2% 15% 0 12.08%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #374151;
+}
+
+.mod-thema{
+    color: #777777;
+    padding-right: 2rem;
+}
+
+.input-label {
+    display: flex;
+    /* Öğeleri yatay olarak düzenler */
+    align-items: center;
+    /* Öğeleri dikeyde merkezler */
+    cursor: pointer;
+    /* Fare imleci tipini 'pointer' (işaretçi) olarak ayarlar */
+}
+
+.button-position {
+    position: relative;
+    /* Öğenin pozisyonunu göreceli olarak ayarlar */
+    margin-right: 0.5rem;
+    /* Sağ kenardan 0.5rem (8 piksel) margin uygular */
+
+}
+
+#checkbox {
+    position: relative;
+    appearance: none;
+    width: 55px;
+    height: 24px;
+    border-radius: 100px;
+    background: #4731d3;
+    cursor: pointer;
+}
+
+#checkbox::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 100px;
+    width: 20px;
+    height: 20px;
+    background: #ffe86e;
+}
+
+#checkbox::after {
+    position: absolute;
+    right: calc(100% + 20px);
+    border-radius: 100px;
+    background: #12121b;
+
+
+}
+
+.lang-handler-div {
+    color: #777777;
+    font-weight: bold;
+}
+
+.lang-handler-span {
+    color: #4731D3;
+    font-weight: bold;
+    cursor: pointer;
+
+
+}
+
+
+#checkbox:checked::before {
+    left: calc(100% - 22px);
+}
+
+.dark-mode {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+
+@media (min-width: 640px) {
+    .mode-container {
+        justify-content: flex-end;
+    }
+}
+
+
+.thema-mode{
+    background-color: #252128;
+}
+
+.thema-lang-handler-span{
+    color: #BAB2E7;
+}
+
+.thema-mod-thema{
+    color: #D9D9D9;
+}
