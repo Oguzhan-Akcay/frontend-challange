@@ -26,7 +26,7 @@ function Hero() {
                 </div>
             </div>
             <div className={` right-section ${darkMode === "true" ? "thema-right-section" : ""}`}>
-                <img className={`hero-photo ${darkMode === "true" ? "thema-hero-photo" : ""}`} src="src/assests/Oguz.jpg" alt="Oğuzhan Akçay" />
+                <img className={`hero-photo ${darkMode === "true" ? "thema-hero-photo" : ""}`} src="public\Oguz.jpg" alt="Oğuzhan Akçay" />
             </div>
         </div>
     );
