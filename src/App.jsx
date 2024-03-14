@@ -13,11 +13,11 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
-  const storedLang = localStorage.getItem("lang");
-  const defaultLang = storedLang ? storedLang : "en";
+  const localLanguage = localStorage.getItem("lang");
+  const defaultLang = localLanguage ? localLanguage : "en";
   const storedMode = localStorage.getItem("darkMode");
   const defaultMode = storedMode ? storedMode : "false";
-  const [langPre, setLangPre] = useState(defaultLang);
+  const [languageValue, setLanguageValue] = useState(defaultLang);
   const [darkMode, setDarkMode] = useState(defaultMode);
 
   useEffect(() => {
@@ -26,9 +26,9 @@ function App() {
     }
   }, [storedMode, defaultMode]);
 
-  const langHandler = () => {
-    const newLang = langPre === "en" ? "tr" : "en";
-    setLangPre(newLang);
+  const changeLanguage = () => {
+    const newLang = languageValue === "en" ? "tr" : "en";
+    setLanguageValue(newLang);
     localStorage.setItem("lang", newLang);
   };
 
@@ -39,22 +39,22 @@ function App() {
   };
 
 
-  const content = langPre === "tr" ? languages.tr : languages.en;
-  const contentProjects = langPre === "tr" ? "tr" : "en";
+  const content = languageValue === "tr" ? languages.tr : languages.en;
+  const contentProjects = languageValue === "tr" ? "tr" : "en";
   const data = {
     content,
     contentProjects,
-    langHandler,
-    langPre,
+    changeLanguage,
+    languageValue,
     darkMode,
     toggleDarkMode
   };
 
   useEffect(() => {
-    if (!storedLang) {
+    if (!localLanguage) {
       localStorage.setItem("lang", defaultLang);
     }
-  }, [storedLang, defaultLang]);
+  }, [localLanguage, defaultLang]);
 
   useEffect(() => {
     toast.success("Başarılı bir şekilde girdiniz");

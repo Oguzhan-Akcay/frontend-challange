@@ -5,7 +5,7 @@ import { DataContext } from "../../context/DataContext";
 
 function Mode() {
 
-  const { langHandler, langPre, toggleDarkMode, darkMode } = useContext(DataContext);
+  const { changeLanguage, languageValue, toggleDarkMode, darkMode } = useContext(DataContext);
 
   return (
     // <div className="mode-container">
@@ -31,9 +31,9 @@ function Mode() {
 
           <span
             className={`lang-handler-span ${darkMode === "true" ? "thema-lang-handler-span" : ""}`}
-            onClick={langHandler}
+            onClick={changeLanguage}
           >
-            {langPre === "en" ? "TÜRKÇE" : "İNGİLİZCE"}
+            {languageValue === "en" ? "TÜRKÇE" : "İNGİLİZCE"}
           </span>
           'YE GEÇ
         </div>
