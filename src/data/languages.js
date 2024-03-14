@@ -1,5 +1,6 @@
 import Movie from '../assests/Movie.jpg';
 import WatchList from '../assests/WatchList.jpg';
+import FrChSS from '../assests/FrChSS.png';
 
 export const languages = {
   en: {
@@ -40,7 +41,7 @@ export const languages = {
     projectsData: [
       {
         id: 1,
-        title: "Workintech",
+        title: "Movie",
         imageUrl: Movie,
         description: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
         technologies: ["React", "Redux", "Axios"],
@@ -49,7 +50,7 @@ export const languages = {
       },
       {
         id: 2,
-        title: "Workintech",
+        title: "WatchList",
         imageUrl: WatchList,
         description: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
         technologies: ["React", "Redux", "Axios"],
@@ -58,12 +59,12 @@ export const languages = {
       },
       {
         id: 3,
-        title: "Workintech",
-        imageUrl: "https://picsum.photos/300/180",
+        title: "Portfolio",
+        imageUrl: FrChSS,
         description: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
         technologies: ["React", "Redux", "Axios"],
-        githubLink: "#",
-        viewSiteLink: "#"
+        githubLink: "https://github.com/Oguzhan-Akcay/frontend-challange",
+        viewSiteLink: "https://frontend-challange-two.vercel.app/"
       }
     ],
     skillsData: [
@@ -122,7 +123,7 @@ export const languages = {
     projectsData: [
       {
         id: 1,
-        title: "Workintech",
+        title: "Film",
         imageUrl: Movie,
         description: "Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanıyan basit, özelleştirilebilir, minimum kurulum çerez eklentisi. Bu, Vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur ve bir NPM paketi olarak mevcuttur ve git deposu her türlü özelleştirmeyi yapar kodlama ve temalar mümkün.",
         technologies: ["React", "Redux", "Axios"],
@@ -131,7 +132,7 @@ export const languages = {
       },
       {
         id: 2,
-        title: "Workintech",
+        title: "FilmListesi",
         imageUrl: WatchList,
         description: "Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanıyan basit, özelleştirilebilir, minimum kurulum çerez eklentisi. Bu, Vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur ve bir NPM paketi olarak mevcuttur ve git deposu her türlü özelleştirmeyi yapar kodlama ve temalar mümkün.",
         technologies: ["React", "Redux", "Axios"],
@@ -140,12 +141,12 @@ export const languages = {
       },
       {
         id: 3,
-        title: "Workintech",
-        imageUrl: "https://picsum.photos/300/180",
+        title: "Portföy",
+        imageUrl: FrChSS,
         description: "Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanıyan basit, özelleştirilebilir, minimum kurulum çerez eklentisi. Bu, Vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur ve bir NPM paketi olarak mevcuttur ve git deposu her türlü özelleştirmeyi yapar kodlama ve temalar mümkün.",
         technologies: ["React", "Redux", "Axios"],
-        githubLink: "#",
-        viewSiteLink: "#"
+        githubLink: "https://github.com/Oguzhan-Akcay/frontend-challange",
+        viewSiteLink: "https://frontend-challange-two.vercel.app/"
       }
     ],
     skillsData: [
